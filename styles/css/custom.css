@@ -1,0 +1,59 @@
+/**
+ * Custom CSS
+ * Use this file to override styles if you feel uncomfortable editing
+ * component stylesheets.
+ ============================================================================ */
+body {
+  background-color: #f7f9fa;
+  font-family: Verdana, Geneva, 'DejaVu Sans', Arial, Helvetica, sans-serif;
+}
+
+.pr-features {
+  background-color: #f7f9fa;
+}
+
+/* Slideshow */
+#block-slideshow {
+  margin-top: 0;
+}
+
+.cropped-slideshow-image {
+  margin: -15% 0;
+}
+
+.centered-slideshow {
+  object-fit: cover;
+}
+
+/* Kopfzeile */
+.pr-leaderboard, 
+.pr-leaderboard__rw {
+  background-color: #d3e2e8;
+}
+
+/* Selektierter Text */
+::selection {
+  background-color: #d3e2e8;
+}
+
+/* Logo */
+.site-branding__logo-img {
+  max-height: 210px;
+}
+
+/* Hauptmenü */
+.pr-navbar {
+  min-height: 58px;
+}
+
+/* Suche */
+.search-block-form {
+  float: right;
+}
+
+img.image-style-wide,
+img.image-style-medium {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
