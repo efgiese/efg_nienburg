@@ -16,7 +16,7 @@
 
 #toolbar-administration button {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   text-shadow: none;
 }
 
@@ -31,8 +31,7 @@
   border: 0;
 }
 
-#toolbar-administration .toolbar-menu-administration a:visited,
-#toolbar-administration .toolbar-menu-administration a:active {
+#toolbar-administration .toolbar-menu-administration a:visited, #toolbar-administration .toolbar-menu-administration a:active {
   color: #565656;
 }
 

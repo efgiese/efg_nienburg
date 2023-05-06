@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Segoe UI", Segoe, Tahoma, Geneva, sans-serif;
   font-size: 1rem;
   padding: 0.75rem;
 }
@@ -21,7 +21,7 @@ textarea {
   background-color: inherit !important;
   color: inherit !important;
   -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+          box-shadow: none !important;
   background-image: none !important;
   visibility: visible;
   opacity: 1;

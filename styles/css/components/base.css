@@ -9,8 +9,7 @@
   min-width: 100%;
 }
 
-.page-top,
-.page-bottom {
+.page-top, .page-bottom {
   padding: 0;
   margin: 0;
 }
@@ -20,8 +19,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .l-rw {
@@ -45,7 +44,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Segoe UI", Segoe, Tahoma, Geneva, sans-serif;
   padding: 0;
   margin: 0;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -62,7 +61,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 article,
@@ -94,109 +93,80 @@ fieldset {
   margin: 0 0 1.25rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0 0 1rem;
   line-height: 1.125;
 }
 
-h1,
-h2,
-h3,
-h5 {
+h1, h2, h3, h5 {
   font-weight: 400;
 }
 
-h4,
-h6 {
+h4, h6 {
   font-weight: 600;
 }
 
-h1,
-.h1 {
+h1, .h1 {
   font-size: 2rem;
 }
 
-h2,
-.h2 {
+h2, .h2 {
   font-size: 1.625rem;
 }
 
-h3,
-.h3 {
+h3, .h3 {
   font-size: 1.25rem;
 }
 
-h4,
-.h4,
-h5,
-.h5 {
+h4, .h4,
+h5, .h5 {
   font-size: 1rem;
 }
 
-h6,
-.h6 {
+h6, .h6 {
   font-size: 0.75rem;
 }
 
-h1 small,
-.h1 small {
+h1 small, .h1 small {
   font-size: 1.625rem;
 }
 
-h2 small,
-.h2 small {
+h2 small, .h2 small {
   font-size: 1.25rem;
 }
 
-h3 small,
-.h3 small,
-h4 small,
-.h4 small {
+h3 small, .h3 small,
+h4 small, .h4 small {
   font-size: 1rem;
 }
 
 @media screen and (min-width: 60.0625em) {
-  h1,
-  .h1 {
+  h1, .h1 {
     font-size: 2.625rem;
   }
-  h2,
-  .h2 {
+  h2, .h2 {
     font-size: 2rem;
   }
-  h3,
-  .h3 {
+  h3, .h3 {
     font-size: 1.625rem;
   }
-  h4,
-  .h4,
-  h5,
-  .h5 {
+  h4, .h4,
+  h5, .h5 {
     font-size: 1.25rem;
   }
-  h6,
-  .h6 {
+  h6, .h6 {
     font-size: 1rem;
   }
-  h1 small,
-  .h1 small {
+  h1 small, .h1 small {
     font-size: 2rem;
   }
-  h2 small,
-  .h2 small {
+  h2 small, .h2 small {
     font-size: 1.625rem;
   }
-  h3 small,
-  .h3 small {
+  h3 small, .h3 small {
     font-size: 1.25rem;
   }
-  h4 small,
-  .h4 small {
+  h4 small, .h4 small {
     font-size: 1rem;
   }
 }
@@ -257,8 +227,7 @@ a {
   cursor: pointer;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   text-decoration: underline;
 }
 
@@ -371,7 +340,7 @@ hr {
   border-top: 1px solid;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 code,
@@ -417,21 +386,16 @@ template {
 /**
  * List Styles
  ============================================================================ */
-ul.inline,
-ul.links.inline {
+ul.inline, ul.links.inline {
   padding: 0;
 }
 
-ul.inline:before,
-ul.inline:after,
-ul.links.inline:before,
-ul.links.inline:after {
+ul.inline:before, ul.inline:after, ul.links.inline:before, ul.links.inline:after {
   content: " ";
   display: table;
 }
 
-ul.inline:after,
-ul.links.inline:after {
+ul.inline:after, ul.links.inline:after {
   clear: both;
 }
 
@@ -493,8 +457,8 @@ ul.inline li ol {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .list-horizontal li {
@@ -511,8 +475,7 @@ ul.inline li ol {
   padding: 0;
 }
 
-.list-multicolumn:before,
-.list-multicolumn:after {
+.list-multicolumn:before, .list-multicolumn:after {
   content: " ";
   display: table;
 }
@@ -526,15 +489,13 @@ ul.inline li ol {
   list-style: none;
 }
 
-.list-multicolumn ul,
-.list-multicolumn ol {
+.list-multicolumn ul, .list-multicolumn ol {
   font-weight: 400;
   padding: 0;
 }
 
 @media screen and (max-width: 60em) {
-  .list-multicolumn:before,
-  .list-multicolumn:after {
+  .list-multicolumn:before, .list-multicolumn:after {
     content: " ";
     display: table;
   }
@@ -546,8 +507,7 @@ ul.inline li ol {
     float: left;
     list-style: none;
   }
-  .list-multicolumn ul,
-  .list-multicolumn ol {
+  .list-multicolumn ul, .list-multicolumn ol {
     padding: 0;
   }
   .list-multicolumn a {
@@ -591,8 +551,8 @@ ul.inline li ol {
   z-index: 50;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   display: block;
   text-align: center;
   padding: 0.375rem 1rem;
@@ -602,14 +562,12 @@ ul.inline li ol {
   .skip-link {
     left: 10%;
     -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
+        -ms-transform: none;
+            transform: none;
   }
 }
 
-.skip-link:visited,
-.skip-link:active,
-.skip-link:focus {
+.skip-link:visited, .skip-link:active, .skip-link:focus {
   color: #fff;
 }
 
@@ -655,19 +613,19 @@ ul.inline li ol {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .links.inline li {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   margin: 0 16px 0 0;
 }
 
@@ -694,7 +652,7 @@ ul.inline li ol {
   background-image: -o-linear-gradient(top, #d1e8f5, #d3e8f4);
   background-image: linear-gradient(to bottom, #d1e8f5, #d3e8f4);
   -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3333);
-  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3333);
+          box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3333);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 1.25rem 0;
 }
@@ -764,8 +722,8 @@ ul.inline li ol {
  ============================================================================ */
 .text-align-justify {
   -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 
 /**
@@ -778,17 +736,17 @@ ul.inline li ol {
  ============================================================================ */
 .l-attribution {
   -webkit-box-ordinal-group: 101;
-  -ms-flex-order: 100;
-  order: 100;
+      -ms-flex-order: 100;
+          order: 100;
 }
 
 .attribution .l-rw {
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 2rem;
   text-align: right;
 }
@@ -808,8 +766,8 @@ ul.inline li ol {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 100%;
   width: 100%;
 }
@@ -819,47 +777,47 @@ ul.inline li ol {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 100%;
 }
 
 .is-vertical-center {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .is-vertical-top {
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .is-vertical-bottom {
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .is-horizontal-center {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .is-horizontal-left {
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .is-horizontal-right {
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=base.css.map */

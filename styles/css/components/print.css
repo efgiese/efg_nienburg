@@ -9,7 +9,7 @@
   * {
     background: transparent !important;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+            box-shadow: none !important;
     text-shadow: none !important;
   }
   html,
@@ -57,7 +57,7 @@
   a,
   a:visited {
     text-decoration: underline;
-    color: #0066cc !important;
+    color: #00647f !important;
   }
   .site-branding a,
   .node__title a {
@@ -97,7 +97,7 @@
   .region {
     border: 0 !important;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+            box-shadow: none !important;
     text-shadow: none !important;
   }
   pre,
