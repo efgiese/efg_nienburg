@@ -93,7 +93,7 @@ $sans-serif        : sans-serif;
 $serif             : serif;
 
 // Set default font families.
-$base-font-family : $sans-serif;
+$base-font-family : $medium-sans-serif;
 $font-monospace   : $monospace;
 
 
@@ -143,7 +143,7 @@ $text-background-color-dark   : #e8e8e8;
 
 // Link colors
 // -----------------------------------------------------------------------------
-$link-color               : #0066cc;
+$link-color               : #00647f;
 $link-hover-color         : $link-color;
 $link-active-color        : $link-color;
 $link-visited-color       : $link-color;
@@ -192,7 +192,7 @@ $marker-error-background-color   : #e62600;
 
 // Selection color
 // -----------------------------------------------------------------------------
-$selection-color : #b3d4fc;
+$selection-color : #7cb3cc;
 
 
 // Zebra striping
@@ -212,7 +212,7 @@ $even-color : $text-background-color-normal;
 // -----------------------------------------------------------------------------
 
 // body background color.
-$body-background-color             : #333333;
+$body-background-color             : #f7f9fa; // #333333;
 
 // .page background color.
 $page-background-color             : #f7f7f7;
@@ -221,10 +221,10 @@ $page-background-color             : #f7f7f7;
 $row-background-color-very-lite    : #fafafa;
 $row-background-color-lite         : $page-background-color;
 $row-background-color-medium-lite  : #ebebeb;
-$row-background-color-medium       : #d3d3d3;
-$row-background-color-medium-dark  : #999999;
-$row-background-color-dark         : #757575;
-$row-background-color-very-dark    : #666666;
+$row-background-color-medium       : #d9edf7; // #d3d3d3;
+$row-background-color-medium-dark  : #b0cedb; // #999999;
+$row-background-color-dark         : #7cb2cb; // #5e8ca0; // #7cb2cb; // #757575;
+$row-background-color-very-dark    : #00647f; // #666666;
 
 // Regions wrapper background color.
 $regions-background-color          : $row-background-color-lite;
@@ -243,8 +243,8 @@ $page-header-background-color          : $row-background-color-very-lite;
 
 // Navbar.
 $page-navbar-color                     : #ffffff;
-$page-navbar-background-color          : $row-background-color-very-dark;
-$page-navbar-hover-background-color    : $row-background-color-dark;
+$page-navbar-background-color          : $row-background-color-dark;
+$page-navbar-hover-background-color    : $row-background-color-medium-dark;
 
 // Highlighted.
 $page-highlighted-color                : $text-color;
@@ -272,7 +272,7 @@ $page-subfeatures-background-color     : $row-background-color-medium;
 
 // Footer.
 $page-footer-color                     : #ffffff;
-$page-footer-background-color          : $row-background-color-very-dark;
+$page-footer-background-color          : $row-background-color-medium-dark;
 
 
 // Branding
