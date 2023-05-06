@@ -16,6 +16,13 @@ Installiert werden sie mit:
 
 `composer require 'drupal/at_tool:^2.0'`
 
+## AudioField
+
+Installiert wird es mit:
+
+`composer require 'drupal/audiofield:^1.13'`
+
+Details siehe [hier:]()
 
 ## HTML audio player
 
