@@ -58,3 +58,9 @@ img.image-style-medium {
 .pr-footer {
   height: 62px;
 }
+
+/* Titel der Predigten */
+.predigt-item h1 {
+  font-weight: 100;
+  font-size: 2rem;
+}
