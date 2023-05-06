@@ -3,13 +3,10 @@
  * Use this file to override styles if you feel uncomfortable editing
  * component stylesheets.
  ============================================================================ */
-body {
-  background-color: #f7f9fa;
-  font-family: Verdana, Geneva, 'DejaVu Sans', Arial, Helvetica, sans-serif;
-}
-
-.pr-features {
-  background-color: #f7f9fa;
+/* Kopfzeile */
+.pr-leaderboard,
+.pr-leaderboard__rw {
+  background-color: #d3e2e8;
 }
 
 /* Slideshow */
@@ -25,12 +22,6 @@ body {
   object-fit: cover;
 }
 
-/* Kopfzeile */
-.pr-leaderboard, 
-.pr-leaderboard__rw {
-  background-color: #d3e2e8;
-}
-
 /* Selektierter Text */
 ::selection {
   background-color: #d3e2e8;
@@ -44,12 +35,6 @@ body {
 /* Hauptmenü */
 .pr-navbar {
   min-height: 58px;
-  background-color: #7cb2cb;
-}
-
-
-.menu__link {
-  background-color: #7cb2cb;
 }
 
 /* Suche */
@@ -62,14 +47,4 @@ img.image-style-medium {
   width: 135px;
   height: 135px;
   object-fit: cover;
-}
-
-/* Footer */
-.l-subfeatures {
-  background-color: #d3e2e8;
-}
-
-.pr-footer {
-  color: #777777;
-  background-color: #f7f9fa;
 }
