@@ -22,6 +22,10 @@
   object-fit: cover;
 }
 
+.pr-features {
+  background-color: #d3e2e8;
+}
+
 /* Selektierter Text */
 ::selection {
   background-color: #d3e2e8;
