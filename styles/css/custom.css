@@ -44,6 +44,12 @@ body {
 /* Hauptmenü */
 .pr-navbar {
   min-height: 58px;
+  background-color: #7cb2cb;
+}
+
+
+.menu__link {
+  background-color: #7cb2cb;
 }
 
 /* Suche */
@@ -53,7 +59,17 @@ body {
 
 img.image-style-wide,
 img.image-style-medium {
-  width: 150px;
-  height: 150px;
+  width: 135px;
+  height: 135px;
   object-fit: cover;
+}
+
+/* Footer */
+.l-subfeatures {
+  background-color: #d3e2e8;
+}
+
+.pr-footer {
+  color: #777777;
+  background-color: #f7f9fa;
 }
