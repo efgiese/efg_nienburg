@@ -46,9 +46,15 @@
   float: right;
 }
 
+/* Bilder im Node */
 img.image-style-wide,
 img.image-style-medium {
   width: 135px;
   height: 135px;
   object-fit: cover;
+}
+
+/* Footer */
+.pr-footer {
+  height: 62px;
 }
