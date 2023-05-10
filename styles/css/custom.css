@@ -56,6 +56,7 @@
 #block-views-block-gemeindeleitung-block-1-title {
   min-height: 58px;
   background-color: #7cb2cb;
+  text-align: center;
 }
 
 #block-views-block-gemeindeleitung-block-1-title > span {
@@ -63,7 +64,7 @@
   display: inline-block;
   position: relative;
   top: 50%;
-  transform: translate(10px, 10px);
+  transform: translate(0px, 10px);
 }
 
 .gemeindeleitung .node__title {
