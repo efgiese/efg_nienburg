@@ -46,6 +46,33 @@
   float: right;
 }
 
+/* Abstand Main-Content */
+#main-content {
+  margin-top: 70px;
+}
+
+/* Gemeindeleitungsblock */
+
+#block-views-block-gemeindeleitung-block-1-title {
+  min-height: 58px;
+  background-color: #7cb2cb;
+}
+
+#block-views-block-gemeindeleitung-block-1-title > span {
+  font-size: smaller;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translate(10px, 10px);
+}
+
+.gemeindeleitung .node__title {
+  font-size: x-large;
+}
+.gemeindeleitung .field-name-field-tags {
+  display: none;
+}
+
 /* Bilder im Node */
 img.image-style-wide,
 img.image-style-medium {
