@@ -96,9 +96,11 @@ img.image-style-medium {
 .node__pubdate {
   display: none;
 }
+.view-empty {
+  display: none
+}
 
 /* Titel der Predigten */
-.predigt-item h1 {
-  font-weight: 100;
-  font-size: 2rem;
+.predigt-item h2 {
+  font-size: 1.625rem;
 }
