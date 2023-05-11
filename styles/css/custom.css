@@ -82,10 +82,11 @@ img.image-style-medium {
   object-fit: cover;
 }
 
-/* Footer 
-.pr-footer {
-  height: 62px;
-} */
+/* Footer */
+#footer {
+  color: #363636;
+}
+
 
 /* Autor und Veröffentlichungsdatum nicht anzeigen */
 .node__meta {
