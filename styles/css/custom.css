@@ -51,6 +51,23 @@
   margin-top: 70px;
 }
 
+/* Gottesdienste */
+
+#block-efg-nienburg-views-block-gottesdienste-block-1-title {
+  min-height: 58px;
+  color: #ffffff;
+  background-color: #7cb2cb;
+  text-align: center;
+}
+
+#block-efg-nienburg-views-block-gottesdienste-block-1-title > span {
+  font-size: smaller;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translate(0px, 10px);
+}
+
 /* Gemeindeleitungsblock */
 
 #block-views-block-gemeindeleitung-block-1-title {
